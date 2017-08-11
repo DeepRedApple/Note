@@ -3,7 +3,7 @@
 > 个人学习资料，大部分都是培训笔记，共勉
 
 - [Activiti]()
-- [Hibernate]()
+- [Hibernate](https://github.com/DeepRedApple/Note/tree/master/Hibernate)
 - [Java]()
 - [Javascript]()
 - [jfreechart]()
@@ -13,7 +13,7 @@
 - [Oracle]()
 - [POI]()
 - [Shiro]()
-- [Spring]()
+- [Spring](https://github.com/DeepRedApple/Note/tree/master/Spring)
 - [Struts2](https://github.com/DeepRedApple/Note/tree/master/Struts2)
 - [WebService]()
 - [检索]()
