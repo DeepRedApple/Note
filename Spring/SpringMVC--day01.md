@@ -97,14 +97,15 @@ springmvc版本：spring3.2
 
 ## 2.3配置前端控制器
 
-在web.xml中配置前端控制器。 		![](http://upload-images.jianshu.io/upload_images/1540531-da507338a8462517.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+在web.xml中配置前端控制器。 	
+![](http://upload-images.jianshu.io/upload_images/1540531-da507338a8462517.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 
 ## 2.4配置处理器适配器
 
 在classpath下的springmvc.xml中配置处理器适配器
 
-​	![](http://upload-images.jianshu.io/upload_images/1540531-f8ac35451ac3e9e2.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)	
+![](http://upload-images.jianshu.io/upload_images/1540531-f8ac35451ac3e9e2.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)	
 
 通过查看原代码：
 
@@ -112,7 +113,7 @@ springmvc版本：spring3.2
 
 此适配器能执行实现 Controller接口的Handler。
 
-​	 ![](http://upload-images.jianshu.io/upload_images/1540531-786dd0dd539ac277.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](http://upload-images.jianshu.io/upload_images/1540531-786dd0dd539ac277.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 ## 2.5开发Handler
 
@@ -164,7 +165,7 @@ public class ItemsController1 implements Controller {
 
 将编写Handler在spring容器加载。
 
-​	 ![](http://upload-images.jianshu.io/upload_images/1540531-b9f765b7ee0a2216.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](http://upload-images.jianshu.io/upload_images/1540531-b9f765b7ee0a2216.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 ## 2.8配置处理器映射器
 
@@ -348,7 +349,7 @@ public class ItemsController3 {
 
 ![](http://upload-images.jianshu.io/upload_images/1540531-167d17934781b0a0.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
- 		![](http://upload-images.jianshu.io/upload_images/1540531-955db444d049f28c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+ ![](http://upload-images.jianshu.io/upload_images/1540531-955db444d049f28c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 # 七、入门程序小结
 
@@ -692,7 +693,7 @@ redirect重定向特点：浏览器地址栏中的url会变化。修改提交的
 
 通过forward进行页面转发，浏览器地址栏url不变，request可以共享。
 
- 						![](http://upload-images.jianshu.io/upload_images/1540531-c00f357a2818093f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](http://upload-images.jianshu.io/upload_images/1540531-c00f357a2818093f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 
 
