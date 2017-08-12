@@ -97,9 +97,7 @@ springmvc版本：spring3.2
 
 ## 2.3配置前端控制器
 
-在web.xml中配置前端控制器。
-
- 		![](http://upload-images.jianshu.io/upload_images/1540531-da507338a8462517.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+在web.xml中配置前端控制器。 		![](http://upload-images.jianshu.io/upload_images/1540531-da507338a8462517.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 
 ## 2.4配置处理器适配器
@@ -204,7 +202,7 @@ org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping
 
 org.springframework.web.servlet.handler.SimpleUrlHandlerMapping
 
- 	![](http://upload-images.jianshu.io/upload_images/1540531-a003755b30cdd1da.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](http://upload-images.jianshu.io/upload_images/1540531-a003755b30cdd1da.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 多个映射器可以并存，前端控制器判断url能让哪些映射器映射，就让正确的映射器处理。
 
@@ -218,12 +216,11 @@ org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter
 
 要求编写的Handler实现 HttpRequestHandler接口。
 
- 		![](http://upload-images.jianshu.io/upload_images/1540531-56f9bc35b07ec7f9.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](http://upload-images.jianshu.io/upload_images/1540531-56f9bc35b07ec7f9.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
    
 
 ```java
-
 	//使用此方法可以通过修改response，设置响应的数据格式，比如响应json数据
 	response.setCharacterEncoding("utf-8");
 	response.setContentType("application/json;charset=utf-8");
@@ -252,7 +249,7 @@ org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter
 
 ## 5.3配置注解映射器和适配器
 
- 		![](http://upload-images.jianshu.io/upload_images/1540531-5ba1ef1b51dd081d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](http://upload-images.jianshu.io/upload_images/1540531-5ba1ef1b51dd081d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 ```xml
 <!-- 使用 mvc:annotation-driven代替上边注解映射器和注解适配器配置
@@ -335,19 +332,15 @@ public class ItemsController3 {
 
 ![](http://upload-images.jianshu.io/upload_images/1540531-66d211857304c50f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-第二步：前端控制器调用处理器映射器查找 Handler
+第二步：前端控制器调用处理器映射器查找 Handler![](http://upload-images.jianshu.io/upload_images/1540531-4ac1ce868ad6ba0c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-![](http://upload-images.jianshu.io/upload_images/1540531-4ac1ce868ad6ba0c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-
- 	![](http://upload-images.jianshu.io/upload_images/1540531-d1ad782e0c1a1a60.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](http://upload-images.jianshu.io/upload_images/1540531-d1ad782e0c1a1a60.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 第三步：调用处理器适配器执行Handler，得到执行结果ModelAndView
 
 ![](http://upload-images.jianshu.io/upload_images/1540531-6d427f57fe8164ab.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-第四步：视图渲染，将model数据填充到request域。视图解析，得到view:
-
-![](http://upload-images.jianshu.io/upload_images/1540531-a712080c865c125f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+第四步：视图渲染，将model数据填充到request域。视图解析，得到view:![](http://upload-images.jianshu.io/upload_images/1540531-a712080c865c125f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 调用view的渲染方法，将model数据填充到request域
 
@@ -606,7 +599,7 @@ sql语句：
 
 在web.xml中，添加spring容器监听器，加载spring容器。
 
- 		![](http://upload-images.jianshu.io/upload_images/1540531-07d6dd6efc6f6ca9.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](http://upload-images.jianshu.io/upload_images/1540531-07d6dd6efc6f6ca9.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 
 # 九、商品修改功能开发
@@ -765,7 +758,7 @@ model是一个接口，modelMap是一个接口实现 。
 
 ![](http://upload-images.jianshu.io/upload_images/1540531-a165bea7688d417d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
- 		![](http://upload-images.jianshu.io/upload_images/1540531-14e73a6e394dea0f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](http://upload-images.jianshu.io/upload_images/1540531-14e73a6e394dea0f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 参考教案 对其它简单类型绑定进行测试。
 
