@@ -157,7 +157,7 @@ hibernate的校验框架validation所需要jar包：
 
 ## 3.4配置校验器
 
- 	![](http://upload-images.jianshu.io/upload_images/1540531-f40c450b9854a865.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](http://upload-images.jianshu.io/upload_images/1540531-f40c450b9854a865.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 ## 3.5校验器注入到处理器适配器中
 
@@ -189,7 +189,7 @@ hibernate的校验框架validation所需要jar包：
 
 在controller中将错误信息传到页面即可。
 
- 		![](http://upload-images.jianshu.io/upload_images/1540531-377fd2b13ca9a810.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+ ![](http://upload-images.jianshu.io/upload_images/1540531-377fd2b13ca9a810.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 页面显示错误信息：
 
@@ -214,13 +214,13 @@ hibernate的校验框架validation所需要jar包：
 ### 3.10.3在校验规则中添加分组
 
 
- 		![](http://upload-images.jianshu.io/upload_images/1540531-852f51566992e4aa.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+ ![](http://upload-images.jianshu.io/upload_images/1540531-852f51566992e4aa.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
  
 ### 3.10.4在controller方法使用指定分组的校验
 
 
- 		![](http://upload-images.jianshu.io/upload_images/1540531-459c6c5c1f6c1431.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+ ![](http://upload-images.jianshu.io/upload_images/1540531-459c6c5c1f6c1431.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 
 # 四、数据回显
@@ -402,7 +402,7 @@ springmvc提供一个HandlerExceptionResolver接口
 
 ![](http://upload-images.jianshu.io/upload_images/1540531-3e92aaa4bf855f24.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
- 		![](http://upload-images.jianshu.io/upload_images/1540531-156ca94ddb04ad17.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+ ![](http://upload-images.jianshu.io/upload_images/1540531-156ca94ddb04ad17.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 
 # 七、json数据交互
@@ -536,7 +536,7 @@ RESTful（即Representational State Transfer的缩写）其实是一个开发理
 
 在web.xml配置：
 
- 	![](http://upload-images.jianshu.io/upload_images/1540531-1c606eaef1993700.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+ ![](http://upload-images.jianshu.io/upload_images/1540531-1c606eaef1993700.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 ## 8.3对静态资源的解析
 
@@ -634,7 +634,7 @@ springmvc配置类似全局的拦截器，springmvc框架将配置的类似全�
 ### 9.3.2编写两个拦截
 
 
- 							![](http://upload-images.jianshu.io/upload_images/1540531-44a5246f2e02af5c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](http://upload-images.jianshu.io/upload_images/1540531-44a5246f2e02af5c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 ### 9.3.3两个拦截器都放行
 
@@ -786,4 +786,4 @@ public class LoginInterceptor implements HandlerInterceptor {
 
 #### 9.4.3.2拦截器配置
 
- 		![](http://upload-images.jianshu.io/upload_images/1540531-d405e7db7dba235b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+ ![](http://upload-images.jianshu.io/upload_images/1540531-d405e7db7dba235b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
