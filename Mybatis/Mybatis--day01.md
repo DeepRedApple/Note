@@ -98,7 +98,7 @@ mybatis运行环境（jar包）：
 
 从https://github.com/mybatis/mybatis-3/releases下载，3.2.7版本
 
- 									![](http://upload-images.jianshu.io/upload_images/1540531-891ddf5270375093.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+ ![](http://upload-images.jianshu.io/upload_images/1540531-891ddf5270375093.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 lib下：依赖包
 
@@ -190,7 +190,7 @@ LAST\_INSERT\_ID()
 
 修改insertUser定义：
 
- 	![](http://upload-images.jianshu.io/upload_images/1540531-ab28f5de48347f58.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+ ![](http://upload-images.jianshu.io/upload_images/1540531-ab28f5de48347f58.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 ### 3.8.4非自增主键返回(使用uuid())
 
@@ -203,7 +203,7 @@ LAST\_INSERT\_ID()
 
 执行uuid()语句顺序相对于insert语句之前执行。
 
- 	![](http://upload-images.jianshu.io/upload_images/1540531-348b45060ebf7d24.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+ ![](http://upload-images.jianshu.io/upload_images/1540531-348b45060ebf7d24.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 通过oracle的序列生成主键：
 
@@ -230,7 +230,7 @@ LAST\_INSERT\_ID()
 
 ### 3.10.1映射文件
 
- 	![](http://upload-images.jianshu.io/upload_images/1540531-b77d762ee87fd501.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](http://upload-images.jianshu.io/upload_images/1540531-b77d762ee87fd501.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 ### 3.10.2代码
 
@@ -548,7 +548,7 @@ mybatis框架在运行时可以调整一些运行参数。
 
 全局参数将会影响mybatis的运行行为。
 
- 		![](http://upload-images.jianshu.io/upload_images/1540531-c4e0fd441ed48003.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240) 
+![](http://upload-images.jianshu.io/upload_images/1540531-c4e0fd441ed48003.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240) 
 
 ![](http://upload-images.jianshu.io/upload_images/1540531-ed5db3367e338a47.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
@@ -678,7 +678,7 @@ mybatis支持类型处理器：
 
 在UserMapper.xml中定义用户信息综合查询（查询条件复杂，通过高级查询进行复杂关联查询）。
 
- 	![](http://upload-images.jianshu.io/upload_images/1540531-cc416bd0fd9e1dbe.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](http://upload-images.jianshu.io/upload_images/1540531-cc416bd0fd9e1dbe.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 ### 6.1.4mapper.java
 
@@ -708,7 +708,7 @@ mybatis支持类型处理器：
 
 #### 7.1.1.2mapper.xml
 
-​		![](http://upload-images.jianshu.io/upload_images/1540531-3b8ee7dc603655c2.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240) 
+![](http://upload-images.jianshu.io/upload_images/1540531-3b8ee7dc603655c2.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240) 
 
 #### 7.1.1.3mapper.java
 
