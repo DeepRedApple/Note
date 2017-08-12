@@ -246,8 +246,7 @@ cmd 中录入 mvn clean install 查看仓库，当前项目被发布到仓库中
 
 ### 4.1.2第二步：拷贝到eclipse中的dropins目录
 
-
- 			![](http://upload-images.jianshu.io/upload_images/1540531-8df0297cc25c5948.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](http://upload-images.jianshu.io/upload_images/1540531-8df0297cc25c5948.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 ### 4.1.3第三步：查看eclipse中是否安装成功
 
@@ -256,8 +255,7 @@ cmd 中录入 mvn clean install 查看仓库，当前项目被发布到仓库中
 
 ### 4.1.4第四步：设置maven的安装路径
 
-
- 			![](http://upload-images.jianshu.io/upload_images/1540531-e1e13832efcebacf.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](http://upload-images.jianshu.io/upload_images/1540531-e1e13832efcebacf.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 ### 4.1.5第五步：设置maven的用户配置
 
@@ -379,7 +377,7 @@ B工程依赖A工程，C工程依赖B工程，那么B工程是C工程的直接�
 
 #### 
 
- 			![](http://upload-images.jianshu.io/upload_images/1540531-29ddf1906d3edfff.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+ ![](http://upload-images.jianshu.io/upload_images/1540531-29ddf1906d3edfff.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 #### 5.2.2.3依赖范围传递
 
@@ -631,9 +629,9 @@ dependencyManagement标签管理的依赖，其实没有真正依赖，它只是
 
 ![](http://upload-images.jianshu.io/upload_images/1540531-d1c6a3a581b8239d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
- 				![](http://upload-images.jianshu.io/upload_images/1540531-95786e70e34dc50b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](http://upload-images.jianshu.io/upload_images/1540531-95786e70e34dc50b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
- 				![](http://upload-images.jianshu.io/upload_images/1540531-da5a8e137ca74027.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](http://upload-images.jianshu.io/upload_images/1540531-da5a8e137ca74027.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 ### 5.6.3创建业务层
 
@@ -676,7 +674,7 @@ dependencyManagement标签管理的依赖，其实没有真正依赖，它只是
     - 私服
 
 
-  ![](http://upload-images.jianshu.io/upload_images/1540531-90e2cf0eeed68ccd.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](http://upload-images.jianshu.io/upload_images/1540531-90e2cf0eeed68ccd.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 ## 6.3Maven私服
 
@@ -702,7 +700,7 @@ dependencyManagement标签管理的依赖，其实没有真正依赖，它只是
 
 ![](http://upload-images.jianshu.io/upload_images/1540531-d963ea5aff442497.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
- 				![](http://upload-images.jianshu.io/upload_images/1540531-ecc3a8b2e94f3159.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](http://upload-images.jianshu.io/upload_images/1540531-ecc3a8b2e94f3159.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 ### 6.3.2访问Nexus
 
@@ -798,4 +796,4 @@ dependencyManagement标签管理的依赖，其实没有真正依赖，它只是
 
 #### 6.3.5.3第三步：执行maven的deploy命令
 
- 					![](http://upload-images.jianshu.io/upload_images/1540531-b74be9f2fa4c905b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+ ![](http://upload-images.jianshu.io/upload_images/1540531-b74be9f2fa4c905b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
