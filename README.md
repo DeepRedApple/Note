@@ -2,7 +2,7 @@
 
 > 个人学习资料，大部分都是培训笔记，共勉
 
-- [Activiti](https://github.com/DeepRedApple/Note/tree/master/Acticiti)
+- [Activiti](https://github.com/DeepRedApple/Note/tree/master/Activiti)
 - [Hibernate](https://github.com/DeepRedApple/Note/tree/master/Hibernate)
 - [Java](https://github.com/DeepRedApple/Note/tree/master/Java)
 - [Javascript](https://github.com/DeepRedApple/Note/tree/master/Javascript)
