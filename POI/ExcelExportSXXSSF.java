@@ -1,5 +1,3 @@
-package cn.zzuli.yycg.utils;
-
 import java.io.FileOutputStream;
 import java.lang.reflect.Method;
 import java.util.ArrayList;
@@ -12,8 +10,6 @@ import org.apache.poi.xssf.streaming.SXSSFSheet;
 import org.apache.poi.xssf.streaming.SXSSFWorkbook;
 /**
  * excel导出的封装类
- * @author miaoruntu
- *
  */
 public class ExcelExportSXXSSF {
 
