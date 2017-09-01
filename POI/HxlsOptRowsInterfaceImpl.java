@@ -1,5 +1,3 @@
-package cn.zzuli.yycg.utils;
-
 import java.util.List;
 
 /**
